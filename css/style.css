@@ -1,0 +1,44 @@
+div{
+  background-color: #2563FF;
+  border: 1px solid #7BA0FF;
+}
+.main {
+  width: 100%;
+}
+.navbar {
+  background-color: #2563FF;
+  text-align: center;
+}
+
+.content {
+  background-color: #7BA0FF;
+}
+
+/* flexbox code*/
+html {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+body {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  flex: auto;
+}
+
+.main {
+  flex: auto;
+  
+  display: flex;
+}
+.inner {
+  
+  display: flex;
+}
+
+.content {
+
+}
+
